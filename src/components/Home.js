@@ -53,6 +53,13 @@ const Home = () => {
             icon: FiEdit,
         },
         {
+            title: 'Repro Mart',
+            description:
+                'Buy sustainable products to take care of you and environment',
+            path: '/repro-mart',
+            icon: FiEdit,
+        },
+        {
             title: 'Menopause & Pregnancy Tools',
             description:
                 'Offer tools for tracking menopause symptoms and pregnancy-related milestones.',

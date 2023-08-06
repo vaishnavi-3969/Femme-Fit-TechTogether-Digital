@@ -10,6 +10,7 @@ import EducationalResources from './pages/EducationalResources';
 import CommunitySupport from './pages/CommunitySupport';
 import PersonalJournal from './pages/PersonalJournal';
 import MenopausePregnancyTools from './pages/MenopausePregnancyTools';
+import ReproMart from './pages/ReproMart';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/community-support' element={<CommunitySupport/>} exact/>
         <Route path='/personal-journal' element={<PersonalJournal/>} exact/>
         <Route path='/menopause-pregnancy-tools' element={<MenopausePregnancyTools/>} exact/>
+        <Route path='/repro-mart' element={<ReproMart/>} exact/>
       </Routes>
     </BrowserRouter>
     </div>
